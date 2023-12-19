@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 *, *::after, *::before{
     box-sizing: border-box;
     margin-top: 0;
@@ -9,6 +11,7 @@ body{
     url("./images/bg-pattern-bottom.svg") no-repeat bottom right; */
     background-color: hsl(185, 75%, 39%);
     line-height: 1.5;
+    color: hsl(227, 10%, 46%);
 }
 
 .content{
@@ -18,6 +21,7 @@ body{
 }
 
 .container{
+    text-align: center;
     background-color: white;
     max-width: 20rem;
     border-radius: 1rem;
@@ -29,6 +33,15 @@ body{
     max-width: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+}
+
+.user-name{
+    display: inline-block;
+}
+
+.user-name,
+.stat-number{
+    color: hsl(229, 23%, 23%);
 }
 
 hr{
