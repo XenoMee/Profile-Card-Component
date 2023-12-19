@@ -11,6 +11,10 @@ body{
     line-height: 1.5;
 }
 
+.content{
+    display: grid;
+    place-content: center;
+}
 
 .attribution { 
     font-size: 0.9rem; 
