@@ -34,6 +34,7 @@ body{
 
 .main-image{
     display: block;
+    width: 100%;
     max-width: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -124,6 +125,12 @@ hr{
     }
 
     .container{
-        width: 35rem;
+        min-width: 25rem;
     }
+
+    .profile-picture{
+        left: 15ch;
+    }
+
+    
 }
