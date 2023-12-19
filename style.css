@@ -16,7 +16,7 @@ body{
 }
 
 .content{
-    min-height: 100vh;
+    min-height: 100svh;
     display: grid;
     place-content: center;
 }
@@ -36,6 +36,19 @@ body{
     border-top-right-radius: 1rem;
 }
 
+.profile-picture{
+    /* position: relative; */
+    max-width: 100%;
+    border-radius: 50%;
+    /* bottom: 3.5rem; */
+    border: .4rem solid white;
+}
+
+.user-name,
+.stat-number{
+    color: hsl(229, 23%, 23%);
+}
+
 .user-name{
     display: inline-block;
     font-size: 1.3rem;
@@ -52,15 +65,15 @@ body{
     
 }
 
-.user-name,
-.stat-number{
-    color: hsl(229, 23%, 23%);
+hr{
+    opacity: .2;
 }
 
 .card-stats{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: .5rem;
 }
 
 .stat-number{
@@ -72,12 +85,9 @@ body{
     font-size: 0.8rem;
 }
 
-hr{
-    opacity: .2;
-}
 
 .attribution { 
-    font-size: 0.9rem; 
+    font-size: 0.8rem; 
     text-align: center; 
 }
 
