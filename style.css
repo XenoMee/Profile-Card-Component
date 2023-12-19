@@ -48,8 +48,8 @@ body{
 .profile-picture{
     display: block;
     position: absolute;
-    top: -3.5rem;
-    left: 6.5rem;
+    top: -7ch;
+    left: 11ch;
     max-width: 100%;
     border-radius: 50%;
     background-color: white;
@@ -59,7 +59,7 @@ body{
 }
 
 .user-title{
-    margin-top: 4rem;
+    margin-top: 3.5rem;
 }
 
 .user-name,
