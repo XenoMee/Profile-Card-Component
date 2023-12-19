@@ -120,6 +120,11 @@ hr{
 }
 
 @media (min-width: 1440px) {
+
+    body{
+        background-position: right 45vw bottom 45vh, left 45vw top 40vh;
+    }
+
     .content{
         min-height: 100vh;
     }
