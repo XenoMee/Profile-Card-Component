@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+    background: url("./images/bg-pattern-top.svg") no-repeat top left,
+    url("./images/bg-pattern-bottom.svg") no-repeat bottom right;
+    background-size: cover;
+}
+
 .attribution { 
     font-size: 0.9rem; 
     text-align: center; 
