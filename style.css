@@ -1,5 +1,6 @@
 *, *::after, *::before{
     box-sizing: border-box;
+    margin-top: 0;
 }
 
 body{
@@ -7,6 +8,7 @@ body{
     background: url("./images/bg-pattern-top.svg") no-repeat top left,
     url("./images/bg-pattern-bottom.svg") no-repeat bottom right;
     background-size: cover;
+    line-height: 1.5;
 }
 
 .attribution { 
