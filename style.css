@@ -5,15 +5,20 @@
 
 body{
     margin: 0;
-    background: url("./images/bg-pattern-top.svg") no-repeat top left,
-    url("./images/bg-pattern-bottom.svg") no-repeat bottom right;
-    background-size: cover;
+    /* background: url("./images/bg-pattern-top.svg") no-repeat top left,
+    url("./images/bg-pattern-bottom.svg") no-repeat bottom right; */
+
     line-height: 1.5;
 }
 
 .content{
+    min-height: 100vh;
     display: grid;
     place-content: center;
+}
+
+.container{
+    max-width: 20rem;
 }
 
 .attribution { 
