@@ -24,6 +24,7 @@ body{
 .container{
     text-align: center;
     background-color: white;
+    width: 100%;
     max-width: 20rem;
     border-radius: 1rem;
     box-shadow: 0rem 1rem 2rem 0 rgba(0,0,0,.3);
@@ -34,14 +35,26 @@ body{
     max-width: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: .5rem;
+    position: relative;
 }
 
 .profile-picture{
-    /* position: relative; */
+    position: absolute;
+    left: 6.5rem;
+    top: -3.5rem;
     max-width: 100%;
     border-radius: 50%;
-    /* bottom: 3.5rem; */
-    border: .4rem solid white;
+    background-color: white;
+    padding: .4rem;
+}
+
+.user-title{
+    margin-top: 4rem;
 }
 
 .user-name,
@@ -62,7 +75,7 @@ body{
 }
 
 .user-location{
-    
+    font-size: .9rem;
 }
 
 hr{
@@ -73,16 +86,21 @@ hr{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: .5rem;
+    padding: 1.3rem .5rem;
+    margin: 0;
+    list-style: none;
 }
 
 .stat-number{
+    display: block;
     font-weight: 700;
     font-size: 1.2rem;
+    margin-bottom: 0;
 }
 
 .stat-name{
     font-size: 0.8rem;
+    margin-bottom: 0;
 }
 
 
