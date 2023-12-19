@@ -1,3 +1,7 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
 .attribution { 
     font-size: 0.9rem; 
     text-align: center; 
