@@ -122,4 +122,8 @@ hr{
     .content{
         min-height: 100vh;
     }
+
+    .container{
+        width: 35rem;
+    }
 }
