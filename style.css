@@ -132,5 +132,7 @@ hr{
         left: 15ch;
     }
 
-    
+    .card-stats{
+        justify-content: space-around;
+    }
 }
