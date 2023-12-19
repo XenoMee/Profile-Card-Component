@@ -48,6 +48,10 @@ body{
     margin-left: .5rem;
 }
 
+.user-location{
+    margin-bottom: 1.5rem;
+}
+
 .user-name,
 .stat-number{
     color: hsl(229, 23%, 23%);
