@@ -136,10 +136,6 @@ hr{
         min-width: 25rem;
     }
 
-    .profile-picture{
-        left: 15ch;
-    }
-
     .user-name,
     .user-age,
     .stat-number{
