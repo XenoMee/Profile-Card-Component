@@ -34,6 +34,7 @@ body{
 
 .main-image{
     display: block;
+    width: 100%;
     max-width: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -116,4 +117,33 @@ hr{
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 1440px) {
+    .content{
+        min-height: 100vh;
+    }
+
+    .container{
+        min-width: 25rem;
+    }
+
+    .profile-picture{
+        left: 15ch;
+    }
+
+    .user-name,
+    .user-age,
+    .stat-number{
+        font-size: 1.5rem;
+    }
+
+    .user-location,
+    .stat-name{
+        font-size: 0.9rem;
+    }
+
+    .card-stats{
+        justify-content: space-around;
+    }
 }
