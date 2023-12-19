@@ -18,7 +18,15 @@ body{
 }
 
 .container{
+    background-color: white;
     max-width: 20rem;
+}
+
+.main-image{
+    display: block;
+    max-width: 100%;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
 }
 
 .attribution { 
