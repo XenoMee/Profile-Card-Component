@@ -42,25 +42,28 @@ body{
 }
 
 .card-body{
-    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
+    padding: .5rem;
 }
 
 .profile-picture{
     display: block;
     position: absolute;
-    top: -7ch;
-    left: 11ch;
+    top: -4rem;
+    width: 6.5rem;
     max-width: 100%;
     border-radius: 50%;
     background-color: white;
     padding: .4rem;
-    margin: 0 auto;
     object-fit: cover;
 }
 
 .user-title{
-    margin-top: 3.5rem;
+    margin-top: 3rem;
 }
 
 .user-name,
