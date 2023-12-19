@@ -117,3 +117,9 @@ hr{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media (min-width: 1440px) {
+    .content{
+        min-height: 100vh;
+    }
+}
