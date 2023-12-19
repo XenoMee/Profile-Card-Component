@@ -7,7 +7,7 @@ body{
     margin: 0;
     /* background: url("./images/bg-pattern-top.svg") no-repeat top left,
     url("./images/bg-pattern-bottom.svg") no-repeat bottom right; */
-
+    background-color: hsl(185, 75%, 39%);
     line-height: 1.5;
 }
 
