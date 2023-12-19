@@ -57,6 +57,12 @@ body{
     color: hsl(229, 23%, 23%);
 }
 
+.card-stats{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 hr{
     opacity: .2;
 }
