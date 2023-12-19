@@ -31,6 +31,10 @@ body{
     border-top-right-radius: 1rem;
 }
 
+hr{
+    opacity: .2;
+}
+
 .attribution { 
     font-size: 0.9rem; 
     text-align: center; 
