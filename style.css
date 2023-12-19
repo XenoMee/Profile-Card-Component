@@ -7,8 +7,10 @@
 
 body{
     margin: 0;
-    /* background: url("./images/bg-pattern-top.svg") no-repeat top left,
-    url("./images/bg-pattern-bottom.svg") no-repeat bottom right; */
+    background: url("./images/bg-pattern-top.svg") no-repeat,
+    url("./images/bg-pattern-bottom.svg") no-repeat;
+    background-size: cover;
+    background-position: right 45vw bottom 60vh, left 45vw top 50vh;
     background-color: hsl(185, 75%, 39%);
     line-height: 1.5;
     font-family: 'Kumbh Sans', sans-serif;
@@ -44,13 +46,16 @@ body{
 }
 
 .profile-picture{
+    display: block;
     position: absolute;
-    left: 6.5rem;
     top: -3.5rem;
+    left: 6.5rem;
     max-width: 100%;
     border-radius: 50%;
     background-color: white;
     padding: .4rem;
+    margin: 0 auto;
+    object-fit: cover;
 }
 
 .user-title{
@@ -105,6 +110,7 @@ hr{
 
 
 .attribution { 
+    color: white;
     font-size: 0.8rem; 
     text-align: center; 
 }
