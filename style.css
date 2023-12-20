@@ -136,10 +136,6 @@ hr {
     min-height: 100vh;
   }
 
-  .container {
-    min-width: 25rem;
-  }
-
   .user-name,
   .user-age,
   .stat-number {
