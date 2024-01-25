@@ -37,6 +37,15 @@ h6 {
   overflow-wrap: break-word;
 }
 
+/* Make images responsive */
+image,
+picture,
+iframe,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
 body {
   margin: 0;
   background: url("./images/bg-pattern-top.svg") no-repeat,
