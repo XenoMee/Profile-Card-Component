@@ -6,10 +6,16 @@
   --clr-neutral-600: hsl(0, 0%, 59%);
 }
 
+/* Use a more-intuitive box-sizing model */
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
 }
 
 body {
