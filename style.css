@@ -38,7 +38,7 @@ h6 {
 }
 
 /* Make images responsive */
-image,
+img,
 picture,
 iframe,
 svg {
@@ -98,12 +98,23 @@ hr {
 
 .profile-card__intro {
   padding: var(--content-padding);
+  position: relative;
+}
+
+.profile-picture {
+  position: absolute;
+  border-radius: 50%;
+  max-width: 5rem;
+  inset: 0;
+  top: -30%;
+  margin: 0 auto;
 }
 
 .user-info {
   justify-content: center;
   align-items: center;
   gap: var(--content-spacing);
+  margin-top: 1rem;
 }
 
 .profile-card__stats {
