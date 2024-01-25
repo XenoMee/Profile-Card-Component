@@ -56,15 +56,8 @@ body {
   font-weight: var(--fw-regular);
 
   min-height: 100svh;
-}
-
-.main-image {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  object-fit: cover;
+  display: grid;
+  place-content: center;
 }
 
 .card-body {
