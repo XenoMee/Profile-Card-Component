@@ -50,6 +50,7 @@ svg {
 body {
   background-color: var(--clr-primary-600);
   color: var(--clr-primary-700);
+  line-height: 1.5;
 
   min-height: 100svh;
 }
