@@ -90,6 +90,7 @@ hr {
 .profile-card {
   max-width: 22rem;
   background-color: white;
+  text-align: center;
 }
 
 /* Utility classes */
