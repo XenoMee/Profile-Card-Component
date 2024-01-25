@@ -67,18 +67,6 @@ body {
   font-size: var(--fs-heading);
 }
 
-.user-name {
-  display: inline-block;
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
-}
-
-.user-age {
-  font-size: 1.3rem;
-  color: hsl(227, 10%, 46%);
-  margin-left: 0.5rem;
-}
-
 .user-location {
   font-size: 0.9rem;
 }
@@ -135,6 +123,11 @@ hr {
   font-weight: 400;
   font-size: 0.8rem;
   margin-bottom: 0;
+}
+
+/* Utility classes */
+.has-flex {
+  display: flex;
 }
 
 /* Desktop Version */
