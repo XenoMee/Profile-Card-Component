@@ -75,6 +75,11 @@ hr {
   opacity: 0.2;
 }
 
+.stat-value {
+  color: var(--clr-primary-900);
+  font-size: var(--fs-heading);
+}
+
 /* Layout */
 .profile-card {
   max-width: 22rem;
