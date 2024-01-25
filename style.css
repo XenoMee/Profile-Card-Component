@@ -4,6 +4,8 @@
   --clr-primary-900: hsl(229, 23%, 23%);
   --clr-primary-700: hsl(227, 10%, 46%);
   --clr-neutral-600: hsl(0, 0%, 59%);
+
+  --ff-base: "Kumbh Sans", sans-serif;
 }
 
 /* Use a more-intuitive box-sizing model */
