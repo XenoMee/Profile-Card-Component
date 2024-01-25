@@ -8,7 +8,7 @@
   --ff-base: "Kumbh Sans", sans-serif;
 
   --fs-default: 1rem;
-  --fs-dark-text: 1.125rem;
+  --fs-heading: 1.125rem;
 
   --fw-regular: 400;
   --fw-bold: 700;
@@ -64,12 +64,7 @@ body {
 .user-name {
   color: var(--clr-primary-900);
   font-weight: var(--fw-bold);
-  font-size: var(--fs-dark-text);
-}
-
-.user-name,
-.stat-number {
-  color: hsl(229, 23%, 23%);
+  font-size: var(--fs-heading);
 }
 
 .user-name {
