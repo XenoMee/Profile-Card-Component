@@ -95,6 +95,8 @@ hr {
   max-width: 22rem;
   background-color: white;
   text-align: center;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .profile-card__intro {
