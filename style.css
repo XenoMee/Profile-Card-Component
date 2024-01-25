@@ -100,7 +100,10 @@ hr {
 
 .profile-card__stats {
   padding: 0;
-  list-style: 0;
+  list-style: none;
+
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 /* Utility classes */
