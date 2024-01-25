@@ -67,8 +67,8 @@ body {
   font-size: var(--fs-heading);
 }
 
-.user-location {
-  font-size: 0.9rem;
+.user-age {
+  font-size: var(--fs-heading);
 }
 
 hr {
