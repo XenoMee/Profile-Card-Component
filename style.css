@@ -78,6 +78,12 @@ hr {
 .stat-value {
   color: var(--clr-primary-900);
   font-size: var(--fs-heading);
+  font-weight: var(--fw-bold);
+}
+
+.stat-name {
+  font-size: 0.625rem;
+  letter-spacing: 1.5px;
 }
 
 /* Layout */
