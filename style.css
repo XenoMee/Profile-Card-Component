@@ -51,6 +51,9 @@ body {
   background-color: var(--clr-primary-600);
   color: var(--clr-primary-700);
   line-height: 1.5;
+  font-size: var(--fs-default);
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
 
   min-height: 100svh;
 }
