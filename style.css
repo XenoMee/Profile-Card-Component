@@ -64,7 +64,7 @@ body {
 .user-name {
   color: var(--clr-primary-900);
   font-weight: var(--fw-bold);
-  /* font-size: var(--fs-dark-text); */
+  font-size: var(--fs-dark-text);
 }
 
 .user-name,
