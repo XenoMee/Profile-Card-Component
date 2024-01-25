@@ -107,7 +107,7 @@ hr {
 }
 
 .profile-card__stats {
-  padding: 0;
+  padding: 1rem 0;
   list-style: none;
 
   justify-content: space-evenly;
