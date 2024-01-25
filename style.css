@@ -89,7 +89,7 @@ hr {
 /* Layout */
 .profile-card {
   --content-padding: 1rem;
-  --content-spacing: 1rem;
+  --content-spacing: 0.5rem;
 
   max-width: 22rem;
   background-color: white;
@@ -99,6 +99,7 @@ hr {
 .user-info {
   justify-content: center;
   align-items: center;
+  gap: var(--content-spacing);
 }
 
 .profile-card__stats {
