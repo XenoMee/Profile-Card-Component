@@ -88,6 +88,9 @@ hr {
 
 /* Layout */
 .profile-card {
+  --content-padding: 1rem;
+  --content-spacing: 1rem;
+
   max-width: 22rem;
   background-color: white;
   text-align: center;
