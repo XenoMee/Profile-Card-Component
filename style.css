@@ -46,16 +46,12 @@ svg {
   display: block;
 }
 
+/* Generic/General */
 body {
-  margin: 0;
-  background: url("./images/bg-pattern-top.svg") no-repeat,
-    url("./images/bg-pattern-bottom.svg") no-repeat;
-  background-size: cover;
-  background-position: right 45vw bottom 60vh, left 45vw top 50vh;
-  background-color: hsl(185, 75%, 39%);
-  line-height: 1.5;
-  font-family: "Kumbh Sans", sans-serif;
-  color: hsl(0, 0%, 59%);
+  background-color: var(--clr-primary-600);
+  color: var(--clr-primary-700);
+
+  min-height: 100svh;
 }
 
 .content {
