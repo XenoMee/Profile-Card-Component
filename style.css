@@ -97,6 +97,7 @@ hr {
   text-align: center;
   border-radius: 1rem;
   overflow: hidden;
+  box-shadow: 0.2rem 0.2rem 1rem rgb(0, 0, 0, 0.2);
 }
 
 .profile-card__intro {
