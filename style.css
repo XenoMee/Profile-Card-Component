@@ -117,16 +117,6 @@ hr {
   margin-bottom: 0;
 }
 
-.attribution {
-  color: white;
-  font-size: 0.8rem;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @media (min-width: 1440px) {
   body {
     background-position: right 45vw bottom 45vh, left 45vw top 40vh;
