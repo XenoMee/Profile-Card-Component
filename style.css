@@ -91,6 +91,7 @@ hr {
   --content-padding: 2.5rem;
   --content-spacing: 0.5rem;
 
+  width: 20rem;
   max-width: 22rem;
   background-color: white;
   text-align: center;
