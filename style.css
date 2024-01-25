@@ -93,6 +93,11 @@ hr {
   text-align: center;
 }
 
+.user-info {
+  justify-content: center;
+  align-items: center;
+}
+
 /* Utility classes */
 .has-flex {
   display: flex;
