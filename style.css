@@ -89,7 +89,7 @@ hr {
 /* Layout */
 .profile-card {
   max-width: 22rem;
-  /* background-color: white; */
+  background-color: white;
 }
 
 /* Utility classes */
