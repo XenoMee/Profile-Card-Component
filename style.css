@@ -88,12 +88,16 @@ hr {
 
 /* Layout */
 .profile-card {
-  --content-padding: 1rem;
+  --content-padding: 2.5rem;
   --content-spacing: 0.5rem;
 
   max-width: 22rem;
   background-color: white;
   text-align: center;
+}
+
+.profile-card__intro {
+  padding: var(--content-padding);
 }
 
 .user-info {
