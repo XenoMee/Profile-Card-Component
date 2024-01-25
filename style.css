@@ -7,6 +7,9 @@
 
   --ff-base: "Kumbh Sans", sans-serif;
 
+  --fs-default: 1rem;
+  --fs-dark-text: 1.125rem;
+
   --fw-regular: 400;
   --fw-bold: 700;
 }
